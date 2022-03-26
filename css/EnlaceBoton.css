@@ -1,0 +1,23 @@
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 20px;
+    display: inline-block;
+    background: blue;
+    padding: 10px 20px;
+    box-shadow: 2px 5px 2px rgb(74, 72, 78);
+    /*box-shadow agrega una sombra a los botones.*/
+}
+
+a:hover {
+    /*Con esta propiedad estamos reduciendo el tamaño de la sombra al pasar el mouse, disminuyendo los pixeles de la sombra de abajo del boton.*/
+    box-shadow: 2px 3px 2px rgb(74, 72, 78);
+    background: orange;
+}
+
+a:active {
+    /*Con esta propiedad estamos eliminando la sombra del boton cuando el usuario hace click sobre el boton y ademas cambiarle el color al boton. Ver en el enlace "Ir al sitio"*/
+    box-shadow: none;
+    background: gray;
+}

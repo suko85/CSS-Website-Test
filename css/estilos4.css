@@ -1,0 +1,23 @@
+        /*
+Al seleccionar las etiquetas y asignarles un background, se marcan o pintan en la pagina los elementos en bloque(son los que se pintan a todo el largo de la pagina, tienen el 100% del espacio que puedan contener) y en linea (son los que se colorea solo el espacio que ocupa el texto, por ejemplo los enlaces y los elementos que se pueden colocar uno al lado del otro).
+h1,
+a,
+div,
+p {
+    background-color: orange;
+}
+*/
+        
+        div {
+            width: 300px;
+            height: 120px;
+            background-color: rgba(255, 68, 0, 0.788);
+            margin: 20px 50px;
+            /* margin-left es el margen de la izquierda del elemento. */
+            padding: 30px;
+            /*la medida del padding es la cantidad de px hacia arriba y hacia abajo del texto. En este caso, el espacio disponible para texto seria 200px de height menos 60px total de padding menos 4px total de grosor del borde. El grosor de px del borde tambien debe restarse al height. */
+            border: 10px solid black;
+            /* Existen varios tipos de bordes, por ejemplo: solid, dotted que agrega una linea discontinua punteada,  */
+            display: inline-block;
+            /* display inline para poner los bloques uno al lado del otro.*/
+        }

@@ -1,0 +1,23 @@
+body {
+    font-size: 16px;
+}
+
+
+/* 
+div {
+    font-size: 20px;
+}
+
+div p {
+    font-size: 1em;
+}
+*/
+
+
+/* Encerramos un parrafo en div y a el le aplicamos propiedades como fondo, color de fuente y ancho en porcentaje para ver como se modifica el tamaño del parrafo en la pantalla segun el porcentaje y si hereda de algun padre el tamaño o si es del body.*/
+
+div {
+    background-color: black;
+    color: white;
+    width: 100%;
+}

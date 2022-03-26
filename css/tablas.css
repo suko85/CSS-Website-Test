@@ -1,0 +1,21 @@
+table {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    width: 200px;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+/*estos encabezamientos son selectores*/
+
+table tr:hover {
+    background: gray;
+}
+
+table td:hover {
+    background: orange;
+}

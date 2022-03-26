@@ -1,0 +1,13 @@
+body {
+    background: url(../imagenes/back.jpg);
+    background-repeat: no-repeat;
+    color: rgb(42, 54, 165);
+    background-attachment: fixed;
+    background-position: 500px 200px;
+}
+
+div {
+    background: orange;
+    height: 300px;
+    background-position: center 0px;
+}

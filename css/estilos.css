@@ -1,0 +1,47 @@
+/*    **** SELECTORES **** 
+El selector universal *{} se utiliza poco, pero es para generar el cambio en el estilo a todo el documento. Dentro de el puedes cambiar el aspecto de todos los elementos de la pagina, por ejemplo, margen, tamaño, colores, etc. */
+
+
+/*   * {
+          margin: 0cm;
+          padding: 0cm;
+          color: red;
+       }
+*/
+
+h2,
+h3,
+h4 {
+    color: red;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    color: blue;
+}
+
+a {
+    color: rgb(100, 48, 0);
+    font-size: 20px;
+}
+
+p a {
+    color: darkgreen;
+    font-size: 25px;
+}
+
+p .newcolor {
+    color: orange;
+}
+
+a[href="http://www.falconmasters.com"] {
+    color: blue;
+    font-size: 45px;
+}

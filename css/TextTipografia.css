@@ -1,0 +1,29 @@
+/* TIPOGRAFIAS */
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    color: rgb(76, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    /* Hay otras propiedades para font-weight, como por ejemplo bold, que cambia la seleccion a "Negrita". */
+    /* TEXTOS */
+    text-align: left;
+    /* existen ademas center y right*/
+    line-height: 25px;
+    /* Este es el tamaño del interlineado. */
+    text-decoration: underline;
+    /* Con underline te subraya el texto, tambien existen otras propiedades como por ejemplo: overline, que pone una linea por encima del texto; y line-throught que hace efecto de tachado. Para anular el text-decoration, puedes utilizar la propiedad none*/
+    text-transform: capitalize;
+    /*Aqui existen varias propiedades. Capitalize coloca mayusculas a la letra inicial de cada palabra. Uppercase las pone todas en mayusculas y lowercase las pone todas en minusculas.*/
+    letter-spacing: normal;
+    /*asigna espaciado entre las letras de cada palabra. Puedes poner valores en pixeles,medidas relativas etc.*/
+    word-spacing: normal;
+    /* asigna espacios despues de cada palabra. Puedes poner medidas relativas, es decir, 20px, cm, %, etc.*/
+    text-shadow: 3px 3px 3px black;
+    /*se utiliza para sombras en textos.*/
+}

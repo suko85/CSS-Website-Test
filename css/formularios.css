@@ -1,0 +1,47 @@
+form {
+    width: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    /*limita el movimiento del textarea, en lo horizontal, vertical o ambos lados.*/
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /*con esta propiedad estamos diciendo que tiene el 100% y el padding no se va a contar, por lo cual el textbox no sobresale del borde*/
+    border: 1px solid gray;
+}
+
+input:focus,
+textarea:focus {
+    /*aplica la propiedad a los dos selectores separados por comas, al hacer clic en un elemento se colorea el borde en el color puesto.*/
+    border: 1px solid blue;
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: rgb(65, 65, 230);
+    cursor: pointer;
+}

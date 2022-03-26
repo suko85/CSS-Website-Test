@@ -1,0 +1,56 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    font-size: 30px;
+}
+
+
+/*  con position static las propiedades de movimiento quedan invalidas, no las lee el navegador.
+.caja {
+    position: relative;
+    /* con relative se desplaza el bloque seleccionado en la clase a donde lo quieras llevar con las propiedades de abajo, y los bloques de abajo se mantienen en su lugar.
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 200px; 
+
+} 
+
+.caja_padre { /* esta clase caja_padre crea una caja adicional dentro de la que queremos colocar el bloque 2.
+    width: 500px;
+    height: 500px;
+    background: black;
+    position: relative;
+    /* Al incluir este position relative, se comienza a medir la distancia hacia abajo dentro del limite superior de la caja_padre, no dentro de la ventana. 
+
+
+}
+ .caja {
+    position: absolute;
+    /* con absolute se desplaza el bloque seleccionado en la clase a donde lo quieras llevar con las propiedades, y los bloques de abajo ocupan su lugar.
+    
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 100px;
+}
+
+.caja {
+    position: fixed;
+    /* con fixed es tan bien por coordenadas a partir de nuestra ventana. se desplaza el bloque seleccionado en la clase a donde lo quieras llevar con las propiedades, manteniendose fijo cuando haces scroll y los bloques de abajo ocupan su lugar.*
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 300px;
+}*/
+
+.caja {
+    position: static;
+    /* con static las propiedades de movimiento no son leidas por el navegador. */
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 300px;
+}

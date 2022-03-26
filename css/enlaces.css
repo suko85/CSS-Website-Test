@@ -1,0 +1,44 @@
+/*EFECTOS EN LOS ENLACES!!!!!*/
+
+a {
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+    /*Estos margenes funcionan en el orden de las manecillas del reloj, comenzando por arriba, derecha, abajo e izquierda.*/
+    /*padding: 10px 20px;
+    con este padding logramos que el background del hover no se vea demasiado apretado.*/
+}
+
+
+/*SEUDOCLASES*/
+
+
+/*Las utilizaremos para asignarles estados a los link, por ejemplo, cuando un link nunca se ha tocado, cuando ya se accedio una vez, en el momento exacto del click, etc. En total son 4 estados.*/
+
+a:link {
+    /*a:link le asigna colores a los enlaces, tamaño, entre otros.*/
+    color: red;
+    font-size: 20px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    /*se utiliza para crear efectos sobre el enlace cuando se pasa el mouse por encima de él, por ejemplo, ponerle un fondo, cambiarle el color a la fuente, cambiar el tipo de fuente, el tamañ, etc.*/
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 25px;
+    background: black;
+    color: white;
+}
+
+
+/*HOVER!!! se utiliza no solo para links sino para cada cosa a la que quieras hacerle un efecto al pasarle el mouse por encima, por ejemplo una caja, un elemento, un div. */
+
+a:active {
+    /*Utilizamos esta seudoclase para asignar un color al background en el momento en el que se hace click sobre el enlace.*/
+    background: orange;
+}

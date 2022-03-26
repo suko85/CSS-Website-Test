@@ -1,0 +1,30 @@
+div {
+    background: gray;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+img {
+    /*PARA HACER DISEÑOS RESPONSIVES ES NECESARIO TRABAJAR CON % EN LAS IMAGENES!!!!*/
+    width: 100%;
+    height: 200px;
+    /*Los valores que se le asignen a la imagen aqui, son los que se tomaran por delante de los que hayas puesto en html.*/
+}
+
+img {
+    /*PARA CENTRAR LAS IMAGENES!!!!*/
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 40%;
+    /*refina el tamaño de los bordes, en pixeles o porcientos.*/
+    box-shadow: 5px 2px 0px white;
+    /*le ponemos un ancho de sombra y le damos un color.*/
+}
+
+a {
+    background: black;
+    width: 100%;
+    padding: 20px;
+}

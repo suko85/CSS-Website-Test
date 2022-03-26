@@ -1,0 +1,40 @@
+ul>ul>ul {
+    /* con la jerarquia ul>ul>ul se va expresando a que nivel de la lista es que se quiere aplicar el cambio. Esto funciona de afuera hacia adentro.*/
+    list-style-type: square;
+    list-style-position: outside;
+    /* aqui existen varios valores para esta propiedad, es decir, varias viñetas:circle, square, .., y se pueden ocultar con none*/
+}
+
+ol {
+    list-style-type: decimal;
+    /*con decimal-leading-zero pone la lista ordenada con ceros delante de cada numero: 01, 02, 03, 04....*/
+    /*con Upper-Latin ordena la lista con letras en mayusculas en vez de numeros. lower-latin lo hace con minusculas.*/
+}
+
+.menu {
+    width: 100%;
+    background: blue;
+    list-style: none;
+    margin: o;
+    padding: 0;
+    /*con estas ultimas 3 propiedades estamos pegando la lista a la esquina de la pantalla.*/
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    /*los elementos a son elementos en linea..*/
+    padding: 10px 20px;
+    /* el padding es conveniente ponerlo en el elemento a y no en el li, porque aqui abarca mayor espacio, es decir, el bloque que le corresponde, si se pusiera en li, solo haria el efecto al pasar el mouse sobre las letras.*/
+    /*por lo que en este caso hay que convertirlos en bloque*/
+    display: inline-block;
+    color: white;
+}
+
+.menu li a:hover {
+    background: gray;
+    color: black;
+    font-size: 20px;
+}
